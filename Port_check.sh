@@ -2,7 +2,7 @@
 
 # Проверка существования файла
 if [ ! -f /usr/local/bin/servers ]; then
-    echo "Файл /root/servers не найден."
+    echo "Файл /usr/local/bin/servers не найден."
     exit 1
 fi
 
