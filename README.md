@@ -4,5 +4,5 @@ In Telegraf config add
 [[inputs.execd]]
   command = ["/usr/local/bin/Port_check.sh"]
   interval = "600s"
-  data_format = "influx"
+  data_format = "influx"				
 There will be a new availability_status metric in prometheus.
